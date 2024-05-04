@@ -103,7 +103,7 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-right
+      - layout: left
         title: 부산 ITBANK
         caption: 2023. 03 ~ 2023. 09
         quote: >
