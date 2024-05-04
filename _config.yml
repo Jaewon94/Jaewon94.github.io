@@ -54,9 +54,9 @@ github_username:  Jaewon94
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
 
- ₩백문이 불여일타.₩
+  - 백문이 불여일타.
 
- 문서화의 힘을 믿고, 항상 살아있는 문서를 관리하기 위해 노력합니다.
+  - 문서화의 힘을 믿고, 항상 살아있는 문서를 관리하기 위해 노력합니다.
 
 content:
   - title: Projects # Title for the section
