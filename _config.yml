@@ -21,7 +21,7 @@ darkmode: false
 
 # Social links
 #twitter_username: jekyllrb
-#github_username:  jekyll
+github_username:  Jaewon94
 #stackoverflow_username: "00000001"
 #dribbble_username: jekyll
 #facebook_username: jekyll
@@ -35,10 +35,10 @@ darkmode: false
 #googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+#additional_links:
+#- title: Link name
+#  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#  url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -53,64 +53,69 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+ ₩백문이 불여일타.₩
+
+ 문서화의 힘을 믿고, 항상 살아있는 문서를 관리하기 위해 노력합니다.
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any
+        # other value (or no value) means no border will be displayed
+        title: my-blog
+        sub_title: Backend Engineer
+        caption: 2024. 03. 04 ~ 2024. 03. 11
+        link: http://13.125.221.98:8080/
+        quote: >
+          JPA를 사용하여 만들어본 블로그
+        description: | # this will include new lines to allow paragraphs
+          - 구현한 사이트는 블로그입니다. 회원이 게시물을 CRUD하는 기능을 만들었습니다. 
+          - 관리자 계정(admin admin)으로 접속시 관리자 페이지에 들어갈 수 있어 다양한 정보를 확인 할 수 있습니다.
+
+      - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        title: JavaBang(DBJava)
+        sub_title: Backend Engineer
+        caption: 2023. 08. 01 ~ 2023. 09. 05
+        link: http://www.dbjava.shop:8080
         quote: >
-          Short overview of the project (optional)
+          에어비앤비를 모티브로 만든 숙박사이트
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+          - 구현할 사이트는 회원을 클라이언트와 호스트로 나누지 않고 일반 회원이 숙박업소를 등록할 수 있게 만들었으며, 모든 회원들이 숙박 예약과 등록을 동시에 할 수 있습니다. 
+          - 회원이 숙박 업소를 등록하면 관리자가 수락하기 전까지 대기 상태가 되며 관리자가 검토하여 수락하면 숙박 예약이 가능합니다.
+
+#  - title: Experience
+#    layout: list
+#    content:
+#      - layout: right
+#        title: Company name
+#        sub_title: Job title
+#        caption: Date Range (eg. November 2016 - present)
+#        link: Link to company (optional)
+#        quote: >
+#          Short description of the company (optional)
+#        description: | # this will include new lines to allow paragraphs
+#          Description of role
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+        title: 부산 ITBANK
+        caption: 2023. 03 ~ 2023. 09
         quote: >
-          Short institution or course description (optional)
+          AWS클라우드 활용 프레임워크 융합 - 개발자 양성과정 6개월 (720h)
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+          - AWS클라우드를 활용한 응용 소프트웨어 기반의 인프라를 구축하고 다양한 기기나 콘텐츠에 융합할 수 있는 소프트웨어 개발 능력을 학습
+#  - title: A Little More About Me
+#    layout: text
+#    content: | # this will include new lines to allow paragraphs
+#      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+#
+#      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: true
