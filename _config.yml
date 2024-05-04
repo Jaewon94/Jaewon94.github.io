@@ -6,13 +6,13 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: 김재원
+title: Backend Engineer
+email: wodnjs3580@gmail.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+phone: 010-9691-3580
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+website: https://chivalrous-bead-3c9.notion.site/Home-bffe3e575abf4a8ca969fc4f5515c00d?pvs=4
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
